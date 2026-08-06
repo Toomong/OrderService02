@@ -38,4 +38,3 @@ jobs:
 
     - name: Push Docker Image
       run: docker push ${{ secrets.DOCKER_USERNAME }}/order-service02:latest .
-	  
